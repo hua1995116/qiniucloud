@@ -1,0 +1,24 @@
+{
+  "name": "qiniu-node",
+  "description": "package for upload to qiniu cloud",
+  "version": "0.0.1",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "mime": "^2.3.1",
+    "qiniu": "^7.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hua1995116/qiniucloud.git"
+  },
+  "author": "",
+  "license": "Apache License",
+  "bugs": {
+    "url": "https://github.com/hua1995116/qiniucloud/issues"
+  },
+  "homepage": "https://github.com/hua1995116/qiniucloud#readme"
+}
