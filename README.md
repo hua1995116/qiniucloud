@@ -35,10 +35,10 @@ qiniuO.upload(fileList); // fileList is a list of local url
 
 **qiniuNode.upload**
 
-- options<Object>
-    - accessKey   <required> // key
-    - secretKey   <required> // key
-    - zone        <required> // location 
-    - bucket      <required> // you apply for space
-    - dir          // if you want to diff the project, it can help you
-    - url          // you host url
+- options`<Object>`
+    - `accessKey`   `<String><required>` // key
+    - `secretKey`   `<String><required>` // key
+    - `zone`        `<String><required>` // location 
+    - `bucket`      `<String><required>` // you apply for space
+    - `dir`          // if you want to diff the project, it can help you
+    - `url`          // you host url
