@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const qiniuUpload = require('./upload');
+const qiniuUpload = require('./index');
 const URL = './img';
 
 const files = fs.readdirSync(URL);
