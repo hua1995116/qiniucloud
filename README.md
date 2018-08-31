@@ -1,13 +1,13 @@
 # qiniucloud
 package for upload to qiniu cloud
 
-# install 
+# Install 
 
 ```
 npm i qiniu-node
 ```
 
-# usage 
+# Usage 
 https://developer.qiniu.com/kodo/sdk/1289/nodejs#5
 
 zone: 
@@ -31,14 +31,14 @@ qiniuO.upload(fileList); // fileList is a list of local url
 
 ```
 
-# api
+# Api
 
-qiniuNode.upload
+**qiniuNode.upload**
 
-    - options<Object>
-        - accessKey   <required> // key
-        - secretKey   <required> // key
-        - zone        <required> // location 
-        - bucket      <required> // you apply for space
-        - dir          // if you want to diff the project, it can help you
-        - url          // you host url
+- options<Object>
+    - accessKey   <required> // key
+    - secretKey   <required> // key
+    - zone        <required> // location 
+    - bucket      <required> // you apply for space
+    - dir          // if you want to diff the project, it can help you
+    - url          // you host url
