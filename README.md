@@ -17,8 +17,8 @@ zone:
 // 北美	qiniu.zone.Zone_na0
 
 ```
-const qiniuUpload = require('qiniu-node');
-const qiniuNode = new qiniuUpload({
+const qiniuNode= require('qiniu-node');
+const qiniu = new qiniuNode({
     accessKey: 'XXXXXXX',  
     secretKey: 'XXXXXXX',  // key
     zone: 'Zone_z2', 
@@ -27,14 +27,13 @@ const qiniuNode = new qiniuUpload({
     url: 'http://pdlu3e6ll.bkt.clouddn.com/',
 })
 
-qiniuO.upload(fileList); // fileList is a list of local url
+qiniu.upload(fileList); // fileList is a list of local url
 
 ```
 
 # Api
 
-**qiniuNode.upload**
-
+**qiniuNode**
 - options`<Object>`
     - `accessKey`   `<String><required>`  key
     - `secretKey`   `<String><required>`  key
@@ -44,7 +43,13 @@ qiniuO.upload(fileList); // fileList is a list of local url
     - `url`          you host url
 
 
+
+**qiniuNode.upload**
+- options`<String>`
+    - `list`   `<Array<String>><required>`  upload list
+
+
 **qiniuNode.cdnRefresh**
 
 - options`<String>`
-    - `list`   `<Array<String>><required>`  refresh url
+    - `list`   `<Array<String>><required>`  refresh list
